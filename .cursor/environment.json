@@ -1,12 +1,18 @@
 {
   "user": "ubuntu",
   "dockerfile": ".cursor/Dockerfile",
-  "install": "npm install",
+  "install": "npm install && npm audit fix",
+  "start": "npm run build || true",
   "terminals": [
     {
       "name": "main",
       "command": "node index.js",
       "description": "Runs the main application"
+    },
+    {
+      "name": "watch",
+      "command": "npm run watch || true",
+      "description": "Watches for file changes"
     }
   ]
 } 
