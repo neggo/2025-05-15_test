@@ -1,0 +1,11 @@
+{
+  "user": "ubuntu",
+  "install": "npm install",
+  "terminals": [
+    {
+      "name": "main",
+      "command": "node index.js",
+      "description": "Runs the main application"
+    }
+  ]
+} 
