@@ -1,5 +1,6 @@
 {
   "user": "ubuntu",
+  "dockerfile": ".cursor/Dockerfile",
   "install": "npm install",
   "terminals": [
     {
